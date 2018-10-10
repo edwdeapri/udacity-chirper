@@ -1,9 +1,8 @@
-import { showLoading, hideLoading } from "react-redux-loading";
-
 import { getInitialData } from "../utils/api";
-import { receiveTweets } from "../actions/tweets";
 import { receiveUsers } from "../actions/users";
+import { receiveTweets } from "../actions/tweets";
 import { setAuthedUser } from "../actions/authedUser";
+import { showLoading, hideLoading } from "react-redux-loading";
 
 const AUTHED_ID = "tylermcginnis";
 
